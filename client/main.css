@@ -1,4 +1,96 @@
 body {
-  padding: 10px;
+  padding: 5%;
   font-family: sans-serif;
+  color: rgb(46, 44, 44);
 }
+
+a {
+  color:rgb(29, 89, 143);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+a:visited {
+  color: rgb(129, 85, 129);
+}
+
+progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  /* Get rid of default border in Firefox. */
+  border: none;
+
+  /* Dimensions */
+  width: 250px;
+  height: 20px;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#main-title {
+  width: 25%;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  font-size: 3em;
+}
+
+#export-list {
+  width: 25%;
+  list-style-type: none;
+  padding: 0;
+}
+
+#export-button {
+  width: 15%;
+  height: 80px;
+  border-radius: 0.5em;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(29, 89, 143);
+}
+
+.export-container {
+  width: 100%;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  margin: 20px 0;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.export-id {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 0.8em;
+  justify-self: right;
+}
+
+.relaunch-button {
+  color: white;
+  background-color: rgb(29, 89, 143);
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 0.3em;
+}
+
+.danger {
+  color: darkred;
+  font-style: italic;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+

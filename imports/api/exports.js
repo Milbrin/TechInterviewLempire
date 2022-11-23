@@ -8,8 +8,6 @@ import { getRandomUrl } from '../../utils/url';
 
 export const Exports = new Mongo.Collection('exports');
 
-//TODO CHECK
-
 Meteor.methods({
 
   'exports.insert'() {
@@ -20,6 +18,7 @@ Meteor.methods({
     });
   },
   'exports.complete'(id) {
+    check(id, String);
     Exports.update(id, { $set: 
       { 
         status: 'complete',
@@ -29,6 +28,7 @@ Meteor.methods({
     });
   },
   'exports.loading'(id) {
+    check(id, String);
     Exports.update(id, { $set: 
       { 
         status: 'loading',
@@ -36,10 +36,12 @@ Meteor.methods({
     });
   },
   'exports.error'(id) {
+    check(id, String);
     Exports.update(id, { $set: 
       { 
         status: 'error',
       } 
     });
   },
+  
 });

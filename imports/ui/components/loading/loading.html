@@ -1,3 +1,4 @@
 <template name="loading">
-  <li>{{formatId _id}}: <progress max="100" value={{progress}}> {{progress}}% </progress></li> 
+  <div class="export-id">{{formatId _id}}</div>
+  <progress class="progress-bar" max="100" value={{progress}}> {{progress}}% </progress>
 </template>

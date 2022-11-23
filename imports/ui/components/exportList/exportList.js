@@ -5,6 +5,6 @@ import './exportList.html';
 // EXPORTLIST
 Template.exportList.helpers({
   exports() {
-    return Exports.find({}, { sort: { status: 1 }});
+    return Exports.find({});
   },
 });

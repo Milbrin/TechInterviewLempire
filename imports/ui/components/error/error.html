@@ -1,5 +1,7 @@
 <template name="error">
-  <li>{{formatId _id}}: Cet export a échoué. <button class="relaunch-button">Relancer l'export</button></li>
+  <div class="export-id">{{formatId _id}}</div>
+  <span class="danger">Cet export a échoué</span>
+  <button class="relaunch-button">Relancer l'export</button>
 </template>
 
 
