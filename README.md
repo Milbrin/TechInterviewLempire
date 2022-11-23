@@ -2,9 +2,10 @@
 
 ## Installation
 
-shell
+```shell
 $ git clone git@github.com:Milbrin/TechInterviewLempire.git
 $ cd TechInterviewLempire                     # Positionnez-vous sur le répertoire nouvellement créé
+```
 
 ## Utilisation
 
