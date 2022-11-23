@@ -2,12 +2,12 @@
 
 import { Template } from 'meteor/templating';
 
-// Components
+// CCOMPONENTS IMPORT
 import { exportList } from './components/exportList/exportList';
 import { exportItem } from './components/exportItem/exportItem';
 import { ready } from './components/ready/ready';
-import { error } from './components/error/error';
 import { loading } from './components/loading/loading';
+import { error } from './components/error/error';
 import { complete } from './components/complete/complete';
 
 import './body.html';

@@ -1,4 +1,4 @@
-// Get the random url TODO go to utils
+// Get the random url
 export const getRandomUrl = () => {
   const urls = [    
   'https://www.lempire.com/',

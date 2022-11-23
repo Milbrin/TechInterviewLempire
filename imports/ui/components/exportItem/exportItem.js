@@ -19,7 +19,6 @@ Template.exportItem.helpers({
     const instance = this;
     if(instance.status) {
       const status = instance.status;
-      console.log(status);
     return status;
   }
   return 'error';
