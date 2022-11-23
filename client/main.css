@@ -83,8 +83,9 @@ progress[value] {
   color: white;
   background-color: rgb(29, 89, 143);
   text-transform: uppercase;
+  border-radius: 0.5em;
   font-size: 0.8em;
-  padding: 0.3em;
+  padding: 0.5em;
 }
 
 .danger {
